@@ -1,0 +1,100 @@
+/* define variables */
+:root{
+    --primary: crimson;
+    --secondary: #1f2937;
+    --tertiary: #1118;
+    --light: #f3f4f6;
+}
+
+/* css reset */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* bringing container to center  */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: var(--light);
+}
+html{
+    background-image: url(download.jpeg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    opacity: 0.95; /* Initial opacity (adjust as needed) */
+    transition: opacity 1s ease; /* CSS transition for the fade effect */
+
+}
+html:hover {
+    opacity: 1; /* Final opacity when hovering (adjust as needed) */
+}
+
+.container {
+    width: 100%;
+    height: 50%;   
+ text-align: center;
+ line-height: 100px;
+}
+
+.watch {
+    text-align: center;
+    background-color: var(--tertiary);
+    width: 100%;
+    max-width: 360px;
+    margin: 4 rem auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 50 50px rgba(0, 0, 0, 2); /* Add a subtle shadow effect to make the container pop */
+   
+}
+
+
+
+.time {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.controls {
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+}
+
+.controls button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+
+    color:var(--light);
+    background-color: var(--primary);
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius:.5rem;
+    transition: 0.4s;
+}
+/* on hover */
+
+button:hover{
+    opacity:0.7;
+}
+
+/* on active */
+
+button:active{
+    background-color: var(--tertiary);
+}
+

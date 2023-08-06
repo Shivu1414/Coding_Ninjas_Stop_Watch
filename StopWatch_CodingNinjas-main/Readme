@@ -1,0 +1,71 @@
+
+Stopwatch Project
+
+
+                                                        ████████████              
+                                                        ██        ██              
+                                                        ██        ██              
+                                                        ██        ██              
+                                                        ████████████              
+                                                          ██    ██                
+                                                          ████████                
+                                                ██    ████████████████      ██    
+                                              ██  ████                ████    ████
+                                            ████████                      ████████
+                                                ██                    ██    ██    
+                                              ██                    ██      ████  
+                                              ██                  ██          ██  
+                                            ██                  ████            ██
+                                            ██                ████              ██
+                                            ██                ██                ██
+                                            ██                                  ██
+                                            ██                                  ██
+                                                                              ████
+                                              ██                              ██  
+                                              ██                            ████  
+                                                ██                        ████    
+                                                  ██                    ████      
+                                                    ████            ██████        
+                                                      ████████████████         
+Stopwatch
+
+Table of Contents
+Introduction
+Features
+Getting Started
+Usage
+Contributing
+License
+
+
+
+Introduction
+This is a simple stopwatch project built using vanilla HTML, CSS, and JavaScript. The project provides basic stopwatch functionality, including start, stop, and reset operations. It offers a clean and intuitive user interface, making it easy to use for various timing needs.
+
+Features
+Start the stopwatch timer.
+Stop the stopwatch timer at any point.
+Reset the stopwatch to its initial state.
+User-friendly and responsive design.
+Getting Started
+Prerequisites
+To use this stopwatch project, you need a web browser that supports modern JavaScript features.
+
+Installation
+You don't need to install anything to use this project. Simply download the code or clone the repository on your IDE. use go live extention to preview the project.
+
+bash
+Copy code
+git clone https://github.com/ManojBinwal/StopWatch_CodingNinjas.git
+cd stopwatch-project
+
+Deployment 
+https://manojbinwal.github.io/StopWatch_CodingNinjas/
+
+
+Usage
+
+Click the "Start" button to start the stopwatch.
+Click the "Stop" button to pause the stopwatch at any point.
+Click the "Start"  button again to resume the stopwatch.
+Click the "Reset" button to set the stopwatch back to 00:00:00.
